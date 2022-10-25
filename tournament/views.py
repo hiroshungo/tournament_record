@@ -23,3 +23,4 @@ class TournamentView(TemplateView):
 def index(request):
     return render(request, 'tournament/index.html')
 def show(request):
+    return render(request, 'tournament/show.html')
