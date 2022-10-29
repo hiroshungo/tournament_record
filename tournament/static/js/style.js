@@ -1,4 +1,4 @@
-let create_check_boxes = document.getElementsByClassName("content_list")
+let create_check_boxes = document.getElementsByClassName("content_list");
 //const create_reception = document.getElementById("reception-name")
 //各チェックボックスが選択されたら呼び出される関数
 function displaySelectedCreate(){

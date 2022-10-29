@@ -1,3 +1,35 @@
+
 .tournament {
     display:block;
   }
+.cover{
+  display:flex;
+}
+
+p2{
+  padding:0 200px;
+  text-align: center;
+}
+.explanation_name{
+  display:block;
+  line-height:50px;
+  padding:1em
+}
+.list-app{
+  background-image: url("/static/images/aa.jpg");
+  background-size: cover;
+  
+}
+.explanation {
+  background-image: url("/static/images/aa.jpg");
+}
+#app.bg1 {
+  background-image: url("/static/images/car1.jpeg");
+}
+#app.bg2 {
+  background-image: url("/static/images/car1.jpeg");
+}
+#app.bg3 {
+  background-image: url("/static/images/car1.jpeg");
+}
+
