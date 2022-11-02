@@ -1,35 +1,59 @@
-
+p1{
+  color: #2196F3;
+}
+p2{
+  color: #2196F3;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
 .tournament {
     display:block;
+    
   }
 .cover{
   display:flex;
+  height:50px;
+  background-color:rgb(0, 0, 0);
 }
 
 p2{
-  padding:0 200px;
+  padding:0 300px;
   text-align: center;
 }
 .explanation_name{
   display:block;
-  line-height:50px;
-  padding:1em
+  line-height:150px;
+  padding:1em;
 }
 .list-app{
-  background-image: url("/static/images/aa.jpg");
   background-size: cover;
+  height: 300px;
+  
+  
+  
   
 }
 .explanation {
-  background-image: url("/static/images/aa.jpg");
+  background-image: url("/static/images/aa.jpg"); 
+  background-size: cover;
+  
+  
 }
 #app.bg1 {
   background-image: url("/static/images/car1.jpeg");
+  background-size: cover;
 }
 #app.bg2 {
-  background-image: url("/static/images/car1.jpeg");
+  background-image: url("/static/images/img0001.jpeg");
+  background-size: cover;
 }
 #app.bg3 {
   background-image: url("/static/images/car1.jpeg");
+  background-size: cover;
+}
+.creation{
+  text-align: center;
 }
 
